@@ -74,7 +74,7 @@ Feature: Login Functionality
   Scenario: Verify "Forget Your Password" link functionality
     And the user clicks the "Forgot Your Password" button
     Then the user should be redirected to the password recovery page
-#
+
 #  Scenario Outline: Verify Tab key navigation across login fields
 #    When the user enters email "<email>" and password "<password>" and clicks on Sign In using tab
 #    Then the user should be redirected to the home page
